@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>linux操作系统</title>
-    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <title>linux操作系统(整理更新中)</title>
+    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
     <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
 <p>阿里云云服务器的使用</p>
 <p>linux系统的基础操作</p>
@@ -108,8 +108,8 @@
       </tags>
   </entry>
   <entry>
-    <title>高级数据结构</title>
-    <url>/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <title>高级数据结构(整理更新中)</title>
+    <url>/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
     <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
 <p>排序二叉树 平衡二叉树 AVL树数据结构</p>
 <p>排序查找 哈希表数据结构</p>
@@ -126,8 +126,8 @@
       </tags>
   </entry>
   <entry>
-    <title>网络编程与高级系统编程</title>
-    <url>/2021/03/08/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%AB%98%E7%BA%A7%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/</url>
+    <title>网络编程与高级系统编程(整理更新中)</title>
+    <url>/2021/03/08/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%AB%98%E7%BA%A7%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
     <content><![CDATA[<h1 id="新坑-持续更新中"><a href="#新坑-持续更新中" class="headerlink" title="新坑, 持续更新中"></a>新坑, 持续更新中</h1><h2 id="预计主要内容"><a href="#预计主要内容" class="headerlink" title="预计主要内容"></a>预计主要内容</h2><ol>
 <li>熟悉计算机网络常见协议，掌握<code>TCP</code>、<code>UDP</code>等重要协议；</li>
 <li>具备独立分布式应用程序的能力；</li>
