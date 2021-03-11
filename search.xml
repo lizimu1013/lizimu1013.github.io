@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>linux操作系统(整理更新中)</title>
-    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
-    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
-<p>阿里云云服务器的使用</p>
-<p>linux系统的基础操作</p>
-<p>linux下文件IO、进程、线程、信号技术的使用</p>
-<p>linux内核子系统的运作机制</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>操作系统</tag>
-        <tag>linux</tag>
-        <tag>基础</tag>
-        <tag>更新中</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>test</title>
     <url>/2020/03/09/test2/</url>
     <content><![CDATA[<p>测试</p>
@@ -108,21 +88,117 @@
       </tags>
   </entry>
   <entry>
-    <title>网络编程与高级系统编程(整理更新中)</title>
-    <url>/2021/03/08/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%AB%98%E7%BA%A7%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
-    <content><![CDATA[<h1 id="新坑-持续更新中"><a href="#新坑-持续更新中" class="headerlink" title="新坑, 持续更新中"></a>新坑, 持续更新中</h1><h2 id="预计主要内容"><a href="#预计主要内容" class="headerlink" title="预计主要内容"></a>预计主要内容</h2><ol>
-<li>熟悉计算机网络常见协议，掌握<code>TCP</code>、<code>UDP</code>等重要协议；</li>
-<li>具备独立分布式应用程序的能力；</li>
-<li>掌握开发高并发网络服务器的能力；</li>
-</ol>
+    <title>二叉排序树</title>
+    <url>/2021/03/11/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
+    <content><![CDATA[<hr>
+<p><a href="https://lizm.xyz/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/">高级数据结构</a></p>
+<hr>
+<h1 id="二叉排序树"><a href="#二叉排序树" class="headerlink" title="二叉排序树"></a>二叉排序树</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210310222636087.png" alt="image-20210310222636087" style="zoom:50%;" />
+
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>性质</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>二叉排序树, 二叉搜索树</td>
+<td>左子树 &lt; 根节点</td>
+<td>解决与<code>排名</code>相关的检索需求</td>
+</tr>
+<tr>
+<td></td>
+<td>右子树 &gt; 根节点</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><code>中序遍历</code>的结果, 是一个有序数列</td>
+<td></td>
+</tr>
+</tbody></table>
+<p><strong>如何查找一个值x?</strong></p>
+<blockquote>
+<p>树形结构查找的入口一定是<code>根节点</code>, 因为根节点代表了全集</p>
+<p>如果x的值比根节点小, 那么x一定存在于根节点的左子树中;</p>
+<p>反之, 如果x的值比根节点大, 那么x一定存在于根节点的右子树中</p>
+</blockquote>
+<p><strong>如何解决与排名相关的检索需求?</strong></p>
+<blockquote>
+</blockquote>
+<h2 id="插入操作"><a href="#插入操作" class="headerlink" title="插入操作"></a>插入操作</h2><p><strong>如何向二叉排序树中插入一个节点10?</strong></p>
+<blockquote>
+<p>插入的新节点, 一定会作为<code>叶子节点</code></p>
+<p>基于二叉树的插入方式<img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210310234358209.png" alt="image-20210310234358209" style="zoom: 25%;" /></p>
+<p>10与根节点20进行比较, 10 &lt; 20, 所以10插入到20节点的左子树中;</p>
+<p>10 &lt; 17, 所以10插入到17节点的左子树中;</p>
+<p>10 &gt; 3, 所以10插入到3节点的右子树. 又因为3节点没有右子树, 所以10成为了3的右子树</p>
+<img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210310234711891.png" alt="image-20210310234711891" style="zoom:25%;" />
+
+
+</blockquote>
+<h2 id="删除操作"><a href="#删除操作" class="headerlink" title="删除操作"></a>删除操作</h2><blockquote>
+<img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210310235004688.png" alt="image-20210310235004688" style="zoom:50%;" />
+
+<p><strong>1. 如何删除叶子节点(度为0)?</strong></p>
+<p>直接删除</p>
+<p><strong>2. 如何删除度为1的节点?</strong></p>
+<p>删除3节点, 唯一的子孩子10节点成为了孤儿, 教给其爷爷节点17</p>
+<p><strong>3. 如何删除度为2的节点(删除20)?</strong></p>
+<p>找到该节点的前驱或者后继, 替换到度为2的节点的位置, 再删除替换后的前驱或者后继, 详见<strong>前驱与后继</strong></p>
+<p>然后转化为删除度为0或者度为1的问题</p>
+</blockquote>
+<h2 id="中序遍历"><a href="#中序遍历" class="headerlink" title="中序遍历"></a>中序遍历</h2><img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210311173609069.png" alt="image-20210311173609069" style="zoom: 33%;" />
+
+<blockquote>
+<p>10 - 17 - 20 - 28 - 29 - 32 - 30    二叉排序树的中序遍历的结果是<code>有序的</code></p>
+<p>左子树(小)   根节点(20)   右子树(大)</p>
+</blockquote>
+<h2 id="前驱与后继"><a href="#前驱与后继" class="headerlink" title="前驱与后继"></a>前驱与后继</h2><img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210311174232571.png" alt="image-20210311174232571" style="zoom:33%;" />
+
+<p>将当前的二叉排序树写成一个有序数列</p>
+<blockquote>
+<p>17 18 19 20 28 29 30 32</p>
+</blockquote>
+<p>对于20这个节点, 紧挨着前后两个节点19和28, 分别就是20节点的<code>前驱</code>和<code>后继</code></p>
+<blockquote>
+<p>前驱是一个节点左子树中的最大值, 后继是右子树中的最小值</p>
+<p>19这个节点一定没有右子树, 28节点一定没有右子树, 一定不是度为2的节点</p>
+<p>对于一个度为2的节点而言, 它的前驱或者后继一定是度为0或者度为1的节点</p>
+</blockquote>
+<p><strong>如何删去20这个节点?</strong></p>
+<blockquote>
+<p>找到该节点的前驱或者后继, 替换到度为2的节点的位置</p>
+<p>然后去该节点的左子树或者右子树中, 删除一个多余的前驱或者后继</p>
+<p>例 : 图中序列为 </p>
+<p>17 18 19 20 28 29 30 32    前驱19替换20后, </p>
+<p>17 18 20 19 28 29 30 32    删去20(度为1)</p>
+<p>17 18 19 28 29 30 32</p>
+</blockquote>
+<h2 id="平均查找效率"><a href="#平均查找效率" class="headerlink" title="平均查找效率"></a>平均查找效率</h2><p>节点查找次数的期望值,<br>$$<br>\frac{总次数}{节点数量}<br>$$</p>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><p><strong>画出相应的二叉搜索树</strong></p>
+<p>[5 9 8 3 2 4 1 7]<img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210311181327620.png" alt="image-20210311181327620" style="zoom:15%;" /></p>
+<p>[1 2 3 4 5]<img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210311181340900.png" alt="image-20210311181340900" style="zoom:15%;" /> 平均查找次数: (1+2+3+4+5=15) / 5 = 3次</p>
+<p>[3 2 1 5 4]<img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210311181612764.png" alt="image-20210311181612764" style="zoom:15%;" />  平均查找次数: (1+2+2+3+3=11) / 5 = 2.2次</p>
+<blockquote>
+<p>插入顺序不同, 平均查找次数也不一样</p>
+<p>不同的树形结构, 查找效率不同</p>
+</blockquote>
+<p>LeetCode. 110 </p>
+<p>LeetCode. 669</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*************************************************************************</span></span><br><span class="line"><span class="comment">	&gt; File Name: binary_search_tree.cpp</span></span><br><span class="line"><span class="comment">	&gt; Author: </span></span><br><span class="line"><span class="comment">	&gt; Mail: </span></span><br><span class="line"><span class="comment"> ************************************************************************/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> KEY(n) (n ? n-&gt;key : 0)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//定义一个节点的结构体</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> key;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">lchild</span>, *<span class="title">rchild</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"></span><br><span class="line"><span class="comment">//传入节点的值key, 初始化节点</span></span><br><span class="line"><span class="function">Node *<span class="title">getNewNode</span><span class="params">(<span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    Node *p = (Node *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(Node));</span><br><span class="line">    p-&gt;key = key;</span><br><span class="line">    p-&gt;lchild = p-&gt;rchild = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//查找操作</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">search</span><span class="params">(Node *root, <span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span> <span class="number">0</span>;<span class="comment">//返回0表示没找到</span></span><br><span class="line">    <span class="keyword">if</span> (root-&gt;key == val) <span class="keyword">return</span> <span class="number">1</span>;<span class="comment">//返回1表示找到了</span></span><br><span class="line">    <span class="keyword">if</span> (val &lt; root-&gt;key) <span class="keyword">return</span> search(root-&gt;lchild, val);<span class="comment">//如果查找的值比根节点小, 就去左子树</span></span><br><span class="line">    <span class="keyword">return</span> search(root-&gt;rchild, val);<span class="comment">//反之去右子树</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//插入操作,因为有可能会改变根节点的地址, 所以直接返回新的根节点的地址</span></span><br><span class="line"><span class="function">Node *<span class="title">insert</span><span class="params">(Node *root, <span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span> getNewNode(key);<span class="comment">//如果根节点不存在, 就建立新的节点</span></span><br><span class="line">    <span class="keyword">if</span> (root-&gt;key == key) <span class="keyword">return</span> root;</span><br><span class="line">    <span class="keyword">if</span> (key &lt; root-&gt;key) root-&gt;lchild = insert(root-&gt;lchild, key);</span><br><span class="line">    <span class="keyword">else</span> root-&gt;rchild = insert(root-&gt;rchild, key);</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">predecessor</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;lchild;</span><br><span class="line">    <span class="comment">//如果temp有右子树, 就一直往右子树走</span></span><br><span class="line">    <span class="keyword">while</span> (temp-&gt;rchild) temp = temp-&gt;rchild;</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//删除操作</span></span><br><span class="line"><span class="function">Node *<span class="title">erase</span><span class="params">(Node *root, <span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">if</span> (key &lt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;lchild = erase(root-&gt;lchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (key &gt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;rchild = erase(root-&gt;rchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="comment">//此时说明当前节点即为待删除的节点</span></span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild == <span class="literal">NULL</span> &amp;&amp; root-&gt;rchild == <span class="literal">NULL</span>) &#123;</span><br><span class="line">            <span class="comment">//删除度为0的节点</span></span><br><span class="line">            <span class="built_in">free</span>(root);</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (root-&gt;lchild == <span class="literal">NULL</span> || root-&gt;rchild == <span class="literal">NULL</span>) &#123;</span><br><span class="line">            <span class="comment">//删除度为1的节点</span></span><br><span class="line">            Node *temp = root-&gt;lchild ? root-&gt;lchild : root-&gt;rchild;<span class="comment">//如果lchild不为空, 唯一子孩子就为lchild</span></span><br><span class="line">            <span class="comment">//否则唯一子孩子即为rchild</span></span><br><span class="line">            <span class="built_in">free</span>(root);</span><br><span class="line">            <span class="keyword">return</span> temp;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="comment">//删除度为2的节点</span></span><br><span class="line">            Node *temp = predecessor(root);<span class="comment">//找到前驱</span></span><br><span class="line">            root-&gt;key = temp-&gt;key;<span class="comment">//与前驱替换</span></span><br><span class="line">            root-&gt;lchild = erase(root-&gt;lchild, temp-&gt;key);<span class="comment">//问题转化,删除根节点的前驱, 即左子树中值为temp-&gt;key的节点</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">clear</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span> ;</span><br><span class="line">    clear(root-&gt;lchild);</span><br><span class="line">    clear(root-&gt;rchild);</span><br><span class="line">    <span class="built_in">free</span>(root);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">output</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span> ;</span><br><span class="line">    output(root-&gt;lchild);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;(%d, %d, %d)\n&quot;</span>, KEY(root), KEY(root-&gt;lchild), KEY(root-&gt;rchild));</span><br><span class="line">    output(root-&gt;rchild);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> op, val;</span><br><span class="line">    Node *root = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">while</span> (~<span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>, &amp;op, &amp;val)) &#123;</span><br><span class="line">        <span class="keyword">switch</span> (op) &#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">0</span>: <span class="built_in">printf</span>(<span class="string">&quot;search %d, result : %d\n&quot;</span>, val, search(root, val)); <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">1</span>: root = insert(root, val); <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">2</span>: root = erase(root, val); <span class="keyword">break</span>;</span><br><span class="line">        &#125;    </span><br><span class="line">        <span class="keyword">if</span> (op) &#123;</span><br><span class="line">            <span class="comment">//插入删除的时候输出树形结构, 查找时不输出(0为假)</span></span><br><span class="line">            output(root);</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;-------------\n&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/lizimu1013/imgbed@main/C_learning/image-20210311204858839.png" alt="image-20210311204858839"></p>
 ]]></content>
       <categories>
-        <category>网络</category>
+        <category>数据结构</category>
       </categories>
       <tags>
-        <tag>更新中</tag>
-        <tag>网络</tag>
+        <tag>数据结构</tag>
         <tag>进阶</tag>
+        <tag>二叉树</tag>
       </tags>
   </entry>
   <entry>
@@ -138,21 +214,61 @@
 ]]></content>
   </entry>
   <entry>
+    <title>linux操作系统(整理更新中)</title>
+    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
+    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
+<p>阿里云云服务器的使用</p>
+<p>linux系统的基础操作</p>
+<p>linux下文件IO、进程、线程、信号技术的使用</p>
+<p>linux内核子系统的运作机制</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>操作系统</tag>
+        <tag>linux</tag>
+        <tag>基础</tag>
+        <tag>更新中</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网络编程与高级系统编程(整理更新中)</title>
+    <url>/2021/03/08/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%8E%E9%AB%98%E7%BA%A7%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
+    <content><![CDATA[<h1 id="新坑-持续更新中"><a href="#新坑-持续更新中" class="headerlink" title="新坑, 持续更新中"></a>新坑, 持续更新中</h1><h2 id="预计主要内容"><a href="#预计主要内容" class="headerlink" title="预计主要内容"></a>预计主要内容</h2><ol>
+<li>熟悉计算机网络常见协议，掌握<code>TCP</code>、<code>UDP</code>等重要协议；</li>
+<li>具备独立分布式应用程序的能力；</li>
+<li>掌握开发高并发网络服务器的能力；</li>
+</ol>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>进阶</tag>
+        <tag>更新中</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>高级数据结构(整理更新中)</title>
     <url>/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
-    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
-<p>排序二叉树 平衡二叉树 AVL树数据结构</p>
+    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><hr>
+<p><a href="https://lizm.xyz/2021/03/11/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/">排序二叉树</a> </p>
+<hr>
+<p>平衡二叉树 </p>
+<p>AVL树数据结构</p>
 <p>排序查找 哈希表数据结构</p>
 <p>手搓红黑树</p>
-</blockquote>
 ]]></content>
       <categories>
         <category>数据结构</category>
       </categories>
       <tags>
-        <tag>更新中</tag>
-        <tag>进阶</tag>
         <tag>数据结构</tag>
+        <tag>进阶</tag>
+        <tag>更新中</tag>
       </tags>
   </entry>
   <entry>
@@ -703,8 +819,8 @@
         <category>数据结构</category>
       </categories>
       <tags>
-        <tag>基础</tag>
         <tag>数据结构</tag>
+        <tag>基础</tag>
         <tag>完结</tag>
       </tags>
   </entry>
