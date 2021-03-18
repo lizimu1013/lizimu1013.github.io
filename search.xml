@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>linux操作系统(整理更新中)</title>
-    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
-    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
-<p>阿里云云服务器的使用</p>
-<p>linux系统的基础操作</p>
-<p>linux下文件IO、进程、线程、信号技术的使用</p>
-<p>linux内核子系统的运作机制</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>操作系统</tag>
-        <tag>linux</tag>
-        <tag>基础</tag>
-        <tag>更新中</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>test</title>
     <url>/2020/03/09/test2/</url>
     <content><![CDATA[<p>测试</p>
@@ -108,6 +88,122 @@
       </tags>
   </entry>
   <entry>
+    <title>linux操作系统(整理更新中)</title>
+    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
+    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
+<p>阿里云云服务器的使用</p>
+<p>linux系统的基础操作</p>
+<p>linux下文件IO、进程、线程、信号技术的使用</p>
+<p>linux内核子系统的运作机制</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>操作系统</tag>
+        <tag>linux</tag>
+        <tag>基础</tag>
+        <tag>更新中</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>平衡二叉排序树-AVL树</title>
+    <url>/2021/03/18/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91-AVL%E6%A0%91/</url>
+    <content><![CDATA[<h1 id="平衡二叉排序树-之-AVL树"><a href="#平衡二叉排序树-之-AVL树" class="headerlink" title="平衡二叉排序树 之 AVL树"></a>平衡二叉排序树 之 AVL树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><blockquote>
+<p>解决二叉排序树查找性能退化的问题</p>
+</blockquote>
+<p><strong>性质</strong></p>
+<ul>
+<li><p>具备所有二叉排序树的所有性质</p>
+</li>
+<li><p>平衡条件 : | H(left) - H(right) |  &lt;=  1 , 左右子树高度差不超过1</p>
+</li>
+<li><p>重点 : 平衡条件以及平衡调整</p>
+</li>
+</ul>
+<p><strong>优点</strong></p>
+<p>由于对每个节点的左右子树的树高做了限制, 所以整棵树<code>不会退化成一个链表</code></p>
+<h2 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h2><ol>
+<li><p>高度为H的BS树, 所包含的节点数量在什么范围之内?</p>
+<p>H &lt;= size(H) &lt;= 2^H^ - 1</p>
+</li>
+<li><p>高度为H的AVL树, 所包含的节点数量在什么范围之内?</p>
+<p>1.5^H^&lt;= size(H) &lt;= 2^H^ - 1 (大概是1.5)</p>
+</li>
+</ol>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318144419891.png" alt="image-20210318144419891"></p>
+<p>树高H, 节点数n, H=logn</p>
+<p>最差情况下, 查找效率是logn级别的, </p>
+<p>AVL树相对于一般的BS树, 提高了效率的下限</p>
+<h2 id="左旋和右旋"><a href="#左旋和右旋" class="headerlink" title="左旋和右旋"></a>左旋和右旋</h2><p><strong>左旋</strong></p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318154432821.png" alt="image-20210318154432821"></p>
+<p>节点A一定小于K3, 并且大于K1, 所以可以作为K1的右子树</p>
+<p>K3的左子树变为K1的右子树</p>
+<p><strong>右旋</strong></p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318155156004.png" alt="image-20210318155156004"></p>
+<p>左旋与右旋是一对对称的操作, 可以互相转换</p>
+<h2 id="失衡类型"><a href="#失衡类型" class="headerlink" title="失衡类型"></a>失衡类型</h2><p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318155649458.png" alt="image-20210318155649458"></p>
+<p><code>K1表示回溯过程中第一次发现失衡</code>, 即H(K2) = H(K3) + 2</p>
+<p>LL : K1左子树K2的左子树A更大一些</p>
+<h3 id="LL型"><a href="#LL型" class="headerlink" title="LL型"></a>LL型</h3><p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318160059499.png" alt="image-20210318160059499"></p>
+<p>原AVL树是平衡的, 新插入一个节点导致了LL型失衡, 那么新插入的节点一定是插入到了A子树中</p>
+<p>H(K2) = H(K3) + 2</p>
+<p>H(A) = H(B) + 1</p>
+<blockquote>
+<p>H(A)= H(B) + 1 = maxH(C,D) + 2 </p>
+</blockquote>
+<p>只要出现LL失衡, 一定是上述关系</p>
+<p><strong>如何调整</strong></p>
+<blockquote>
+<p>抓着失衡的节点K1进行右旋</p>
+</blockquote>
+<p>RR类型同理, 直接进行左旋</p>
+<h3 id="LR型"><a href="#LR型" class="headerlink" title="LR型"></a>LR型</h3><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318162727150.png" alt="image-20210318162727150" style="zoom:50%;" />
+
+<p>H(K2) = H(D) + 2</p>
+<p>H(K3) = maxH(B,C) + 1</p>
+<p>H(K2) = H(K3) + 1</p>
+<p>H(K3) = H(A) + 1</p>
+<blockquote>
+<p>maxH(B,C) = H(D) = H(A)</p>
+</blockquote>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318162636360.png" alt="image-20210318162636360"></p>
+<p>**如何调整? **</p>
+<blockquote>
+<p>先对K1的左子树K2进行左旋, 变成LL型, 再对K1进行右旋</p>
+</blockquote>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318170342837.png" alt="image-20210318170342837"></p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318173027713.png" alt="image-20210318173027713"></p>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318172222572.png" alt="image-20210318172222572" style="zoom: 50%;" />
+
+<h2 id="代码演示"><a href="#代码演示" class="headerlink" title="代码演示"></a>代码演示</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*************************************************************************</span></span><br><span class="line"><span class="comment">	&gt; File Name: AVL.cpp</span></span><br><span class="line"><span class="comment">	&gt; Author: </span></span><br><span class="line"><span class="comment">	&gt; Mail: </span></span><br><span class="line"><span class="comment"> ************************************************************************/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//#define L(n) (n ? n-&gt;lchild : NULL)</span></span><br><span class="line"><span class="comment">//#define R(n) (n ? n-&gt;rchild : NULL)</span></span><br><span class="line"><span class="comment">//#define H(n) (n ? n-&gt;h : 0)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> L(n) (n-&gt;lchild)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> R(n) (n-&gt;rchild)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> H(n) (n-&gt;h)</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> key, h;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">lchild</span>, *<span class="title">rchild</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"></span><br><span class="line">Node __NIL;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> NIL (&amp;__NIL)</span></span><br><span class="line">__attribute__((constructor))</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init_NIL</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    NIL-&gt;key = <span class="number">0</span>, NIL-&gt;h = <span class="number">0</span>;</span><br><span class="line">    NIL-&gt;lchild = NIL-&gt;rchild = NIL;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">getNewNode</span><span class="params">(<span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    Node *p = (Node *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(Node));</span><br><span class="line">    p-&gt;key = key;</span><br><span class="line">    p-&gt;h = <span class="number">1</span>;</span><br><span class="line">    p-&gt;lchild = p-&gt;rchild = NIL;</span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">update_height</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    root-&gt;h = (H(L(root)) &gt; H(R(root)) ? H(L(root)) : H(R(root))) + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">left_rotate</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;rchild;<span class="comment">//旋转完之后的新的根节点地址</span></span><br><span class="line">    root-&gt;rchild = temp-&gt;lchild;</span><br><span class="line">    temp-&gt;lchild = root;</span><br><span class="line">    update_height(root);</span><br><span class="line">    update_height(temp);</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">right_rotate</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;lchild;<span class="comment">//旋转完之后的新的根节点地址</span></span><br><span class="line">    root-&gt;lchild = temp-&gt;rchild;</span><br><span class="line">    temp-&gt;rchild = root;</span><br><span class="line">    update_height(root);</span><br><span class="line">    update_height(temp);</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">maintain</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">abs</span>(H(L(root)) - H(R(root))) &lt;= <span class="number">1</span>) <span class="keyword">return</span> root;</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;lchild-&gt;h &gt; root-&gt;rchild-&gt;h) &#123;</span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild-&gt;lchild-&gt;h &lt; root-&gt;lchild-&gt;rchild-&gt;h) &#123;</span><br><span class="line">            root-&gt;lchild = left_rotate(root-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">        root = right_rotate(root);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (root-&gt;rchild-&gt;rchild-&gt;h &lt; root-&gt;rchild-&gt;lchild-&gt;h) &#123;</span><br><span class="line">            root-&gt;rchild = right_rotate(root-&gt;rchild);</span><br><span class="line">        &#125;</span><br><span class="line">        root = left_rotate(root);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line"></span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">insert</span><span class="params">(Node *root, <span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> getNewNode(key);</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;key == key) <span class="keyword">return</span> root;</span><br><span class="line">    <span class="keyword">if</span> (key &lt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;lchild = insert(root-&gt;lchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        root-&gt;rchild = insert(root-&gt;rchild, key);</span><br><span class="line">    &#125;</span><br><span class="line">    update_height(root);</span><br><span class="line">    <span class="comment">//return root;//回溯过程</span></span><br><span class="line">    <span class="keyword">return</span> maintain(root);<span class="comment">//返回经过平衡调整以后根节点的地址</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">predecessor</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;lchild;</span><br><span class="line">    <span class="keyword">while</span> (temp-&gt;rchild) temp = temp-&gt;rchild;</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">erase</span><span class="params">(Node *root, <span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> NIL;</span><br><span class="line">    <span class="keyword">if</span> (key &lt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;lchild = erase(root-&gt;lchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (key &gt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;rchild = erase(root-&gt;rchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild == NIL || root-&gt;rchild == NIL) &#123;</span><br><span class="line">            Node *temp = root-&gt;lchild != NIL ? root-&gt;lchild : root-&gt;rchild;</span><br><span class="line">            <span class="built_in">free</span>(root);<span class="comment">//释放当前节点所占空间</span></span><br><span class="line">            <span class="keyword">return</span> temp;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            Node *temp = predecessor(root);</span><br><span class="line">            root-&gt;key = temp-&gt;key;<span class="comment">//前驱节点的值覆盖当前节点的值</span></span><br><span class="line">            root-&gt;lchild = erase(root-&gt;lchild, key);<span class="comment">//到左子树中删除值为前驱节点的值</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    update_height(root);</span><br><span class="line">    <span class="keyword">return</span> maintain(root);</span><br><span class="line">    <span class="comment">//return root;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">clear</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> ;</span><br><span class="line">    clear(root-&gt;lchild);</span><br><span class="line">    clear(root-&gt;rchild);</span><br><span class="line">    <span class="built_in">free</span>(root);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">print</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;(%d[%d], %d, %d)\n&quot;</span>,</span><br><span class="line">        root-&gt;key, root-&gt;h,</span><br><span class="line">        root-&gt;lchild-&gt;key,</span><br><span class="line">        root-&gt;rchild-&gt;key</span><br><span class="line">        );</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">output</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> ;</span><br><span class="line">    print(root);</span><br><span class="line">    output(root-&gt;lchild);</span><br><span class="line">    output(root-&gt;rchild);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> op, val;</span><br><span class="line">    Node *root = NIL;</span><br><span class="line">    <span class="keyword">while</span> (~<span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>, &amp;op, &amp;val)) &#123;</span><br><span class="line">        <span class="keyword">switch</span> (op) &#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">0</span>: root = erase(root, val); <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">1</span>: root = insert(root, val); <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        output(root);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;--------------\n&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210318185255638.png" alt="image-20210318185255638" style="zoom:50%;" />
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="平衡调整策略"><a href="#平衡调整策略" class="headerlink" title="平衡调整策略"></a>平衡调整策略</h3><ul>
+<li>发生在回溯阶段, 第一个失衡节点处</li>
+<li>理解平衡调整策略的关键在于 : 分析清楚四种情况下, ABCD四颗子树树高的关系</li>
+<li>LL, 大右旋</li>
+<li>LR, 先小左旋, 再大右旋</li>
+<li>RL, 先小右旋, 再大左旋</li>
+<li>RR, 大左旋</li>
+</ul>
+<h3 id="代码演示总结"><a href="#代码演示总结" class="headerlink" title="代码演示总结"></a>代码演示总结</h3><ul>
+<li>插入和删除以后, 注意重新计算树高字段</li>
+<li>引入了NIL字段, 代替NULL, NULL不可访问, NIL是一个实际节点, 可访问. (可以不用额外判断是否为空节点)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>进阶</tag>
+        <tag>二叉树</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>更新日志</title>
     <url>/2021/03/17/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
     <content><![CDATA[<h1 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h1><p>文档说明 </p>
@@ -139,8 +235,8 @@
       </categories>
       <tags>
         <tag>更新中</tag>
-        <tag>网络</tag>
         <tag>进阶</tag>
+        <tag>网络</tag>
       </tags>
   </entry>
   <entry>
@@ -159,8 +255,8 @@
       </categories>
       <tags>
         <tag>更新中</tag>
-        <tag>进阶</tag>
         <tag>数据结构</tag>
+        <tag>进阶</tag>
       </tags>
   </entry>
   <entry>
@@ -332,8 +428,8 @@
         <category>数据结构</category>
       </categories>
       <tags>
-        <tag>进阶</tag>
         <tag>数据结构</tag>
+        <tag>进阶</tag>
         <tag>二叉树</tag>
       </tags>
   </entry>
