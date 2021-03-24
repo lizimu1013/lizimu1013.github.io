@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>linux操作系统(整理更新中)</title>
+    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
+    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
+<p>阿里云云服务器的使用</p>
+<p>linux系统的基础操作</p>
+<p>linux下文件IO、进程、线程、信号技术的使用</p>
+<p>linux内核子系统的运作机制</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>操作系统</tag>
+        <tag>linux</tag>
+        <tag>基础</tag>
+        <tag>更新中</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>test</title>
     <url>/2020/03/09/test2/</url>
     <content><![CDATA[<p>测试</p>
@@ -88,29 +108,30 @@
       </tags>
   </entry>
   <entry>
-    <title>linux操作系统(整理更新中)</title>
-    <url>/2021/03/08/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
-    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote>
-<p>阿里云云服务器的使用</p>
-<p>linux系统的基础操作</p>
-<p>linux下文件IO、进程、线程、信号技术的使用</p>
-<p>linux内核子系统的运作机制</p>
-</blockquote>
+    <title>更新日志</title>
+    <url>/2021/03/17/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h1 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h1><p>文档说明 </p>
+<h2 id="1-0-0-003-2021-03-17"><a href="#1-0-0-003-2021-03-17" class="headerlink" title="[1.0.0-003] - 2021-03-17"></a>[1.0.0-003] - 2021-03-17</h2><ul>
+<li><h3 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h3><ul>
+<li>github + jsdelivr白嫖图床好像翻车了, 尝试以后逐渐更换成阿里云oss. 真香</li>
+</ul>
+</li>
+</ul>
+<h2 id="1-0-0-002-2021-03-11"><a href="#1-0-0-002-2021-03-11" class="headerlink" title="[1.0.0-002] - 2021-03-11"></a>[1.0.0-002] - 2021-03-11</h2><ul>
+<li><h3 id="新增-1"><a href="#新增-1" class="headerlink" title="新增"></a>新增</h3><ul>
+<li>左下角 音乐播放器</li>
+</ul>
+</li>
+</ul>
 ]]></content>
-      <categories>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>操作系统</tag>
-        <tag>linux</tag>
-        <tag>基础</tag>
-        <tag>更新中</tag>
-      </tags>
   </entry>
   <entry>
     <title>平衡二叉排序树-AVL树</title>
     <url>/2021/03/18/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91-AVL%E6%A0%91/</url>
-    <content><![CDATA[<h1 id="平衡二叉排序树-之-AVL树"><a href="#平衡二叉排序树-之-AVL树" class="headerlink" title="平衡二叉排序树 之 AVL树"></a>平衡二叉排序树 之 AVL树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><blockquote>
+    <content><![CDATA[<hr>
+<p><a href="https://lizm.xyz/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/">高级数据结构</a></p>
+<hr>
+<h1 id="平衡二叉排序树-之-AVL树"><a href="#平衡二叉排序树-之-AVL树" class="headerlink" title="平衡二叉排序树 之 AVL树"></a>平衡二叉排序树 之 AVL树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><blockquote>
 <p>解决二叉排序树查找性能退化的问题</p>
 </blockquote>
 <p><strong>性质</strong></p>
@@ -204,22 +225,21 @@
       </tags>
   </entry>
   <entry>
-    <title>更新日志</title>
-    <url>/2021/03/17/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<h1 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h1><p>文档说明 </p>
-<h2 id="1-0-0-003-2021-03-17"><a href="#1-0-0-003-2021-03-17" class="headerlink" title="[1.0.0-003] - 2021-03-17"></a>[1.0.0-003] - 2021-03-17</h2><ul>
-<li><h3 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h3><ul>
-<li>github + jsdelivr白嫖图床好像翻车了, 尝试以后逐渐更换成阿里云oss. 真香</li>
-</ul>
-</li>
-</ul>
-<h2 id="1-0-0-002-2021-03-11"><a href="#1-0-0-002-2021-03-11" class="headerlink" title="[1.0.0-002] - 2021-03-11"></a>[1.0.0-002] - 2021-03-11</h2><ul>
-<li><h3 id="新增-1"><a href="#新增-1" class="headerlink" title="新增"></a>新增</h3><ul>
-<li>左下角 音乐播放器</li>
-</ul>
-</li>
-</ul>
+    <title>高级数据结构(整理更新中)</title>
+    <url>/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
+    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><p><a href="https://lizm.xyz/2021/03/11/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/">排序二叉树</a> </p>
+<p><a href="https://lizm.xyz/2021/03/18/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91-AVL%E6%A0%91/">平衡二叉树之AVL树</a></p>
+<p><a href="https://lizm.xyz/2021/03/24/%E7%BA%A2%E9%BB%91%E6%A0%91RB-Tree/">红黑树</a></p>
+<p>排序查找 哈希表数据结构</p>
 ]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>更新中</tag>
+        <tag>数据结构</tag>
+        <tag>进阶</tag>
+      </tags>
   </entry>
   <entry>
     <title>网络编程与高级系统编程(整理更新中)</title>
@@ -237,26 +257,6 @@
         <tag>更新中</tag>
         <tag>进阶</tag>
         <tag>网络</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高级数据结构(整理更新中)</title>
-    <url>/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/</url>
-    <content><![CDATA[<h1 id="新坑-笔记持续整理更新中"><a href="#新坑-笔记持续整理更新中" class="headerlink" title="新坑, 笔记持续整理更新中"></a>新坑, 笔记持续整理更新中</h1><hr>
-<p><a href="https://lizm.xyz/2021/03/11/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/">排序二叉树</a> </p>
-<hr>
-<p>平衡二叉树 </p>
-<p>AVL树数据结构</p>
-<p>排序查找 哈希表数据结构</p>
-<p>手搓红黑树</p>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>更新中</tag>
-        <tag>数据结构</tag>
-        <tag>进阶</tag>
       </tags>
   </entry>
   <entry>
@@ -424,6 +424,178 @@
 </li>
 </ol>
 ]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>进阶</tag>
+        <tag>二叉树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>红黑树-RBTree</title>
+    <url>/2021/03/24/%E7%BA%A2%E9%BB%91%E6%A0%91RB-Tree/</url>
+    <content><![CDATA[<hr>
+<p><a href="https://lizm.xyz/2021/03/08/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(%E6%95%B4%E7%90%86%E6%9B%B4%E6%96%B0%E4%B8%AD)/">高级数据结构</a></p>
+<hr>
+<h2 id="五个条件-重要"><a href="#五个条件-重要" class="headerlink" title="五个条件(重要)"></a>五个条件(重要)</h2><ol>
+<li>每个节点<code>非黑即红</code></li>
+<li>根节点是<code>黑色</code></li>
+<li>叶节点（NIL）是<code>黑色</code></li>
+<li>如果⼀个节点是红色，则它的两个子节点都是<code>黑色</code>的 </li>
+<li>从根节点出发到所有叶节点路径上，黑色节点数量<code>相同</code></li>
+</ol>
+<ul>
+<li>第4第5条件规定了, 红黑树中, 最长边和最短边的关系是2倍</li>
+<li>本质上也是靠<code>树高</code>来控制平衡条件 </li>
+<li>红黑树相比于AVL树树高控制条件更加松散, 红黑树在发生节点插入和删除以后, 发生调整的概率, 比AVL树更小</li>
+</ul>
+<h2 id="调整策略"><a href="#调整策略" class="headerlink" title="调整策略"></a>调整策略</h2><ol>
+<li><code>插入</code>调整站在<code>祖父节点</code>看</li>
+<li><code>删除</code>调整站在<code>父节点</code>看</li>
+<li>插入调整, 主要是为了解决<code>双红</code>情况</li>
+<li>插入和删除的情况处理一共有五种</li>
+<li>把每一种情况, 想象成一棵大的红黑树中的局部子树</li>
+<li>局部调整的时候, 为了不影响全局, 调整前后的路径上黑色节点数量相同</li>
+</ol>
+<h2 id="插入调整的情况"><a href="#插入调整的情况" class="headerlink" title="插入调整的情况"></a>插入调整的情况</h2><blockquote>
+<p>插入黑色节点, <code>必然</code>会发生调整. (改变了每个路径上的黑色节点数量)</p>
+<p>插入红色节点, <code>可能</code>会发生调整. (只有插入到红色节点下面才会发生调整)</p>
+</blockquote>
+<h3 id="情况一"><a href="#情况一" class="headerlink" title="情况一"></a>情况一</h3><p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210319174254380.png" alt="image-20210319174254380"></p>
+<blockquote>
+<p>发生冲突时, 叔叔节点为<code>红色</code>的时候, 修改三元组小帽子, 改成红-黑-黑</p>
+<p>处理方法 : 节点1和20修改成<code>黑色</code>, 节点15修改成<code>红色</code><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210320052912394.png" alt="image-20210320052912394" style="zoom:25%;" /></p>
+</blockquote>
+<ul>
+<li>站在<code>祖父节点</code>15向下看, 节点20和新插入的节点x发生冲突</li>
+<li>调整前后, 每条路径上黑色节点数量不变, 对其他红黑树的部分不影响</li>
+</ul>
+<h3 id="情况二-又分四个小情况"><a href="#情况二-又分四个小情况" class="headerlink" title="情况二(又分四个小情况)"></a>情况二(又分四个小情况)</h3><p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210320053125647.png" alt="image-20210320053125647"></p>
+<blockquote>
+<p>叔叔节点为<code>黑色</code>的时候,参考AVL树的失衡情况, 分成LL,LR,RL,RR, 先参考AVL树的旋转调整策略, 然后再修改三元组的颜色, 有两种调整策略: 红色上浮, 红色下沉</p>
+<p>处理方法 : 先大右(左)旋, 20调整为红色, 15调整为黑色(或者把10调整为黑色)</p>
+</blockquote>
+<ul>
+<li>冲突发生在左子树, 并且左子树的左子树为红色, 称为LL类型失衡</li>
+<li>右旋, 不影响每棵树上黑色节点的数量</li>
+<li>蓝色框表示, 若发生LL失衡, 则颜色确定的点</li>
+<li>若发生LR失衡, 先把父子树小左旋, 再把祖父子树大右旋, 再调整颜色 </li>
+</ul>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210320180357885.png" alt="image-20210320180357885"></p>
+<h2 id="插入的代码演示"><a href="#插入的代码演示" class="headerlink" title="插入的代码演示"></a>插入的代码演示</h2><p>优化</p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321114012105.png" alt="image-20210321114012105" style="zoom: 40%;" /><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321120451418.png" alt="image-20210321120451418" style="zoom:45%;" /></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> key;</span><br><span class="line">    <span class="keyword">int</span> color; <span class="comment">// 0 red, 1 black, 2 double black</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">lchild</span>, *<span class="title">rchild</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"></span><br><span class="line">Node __NIL;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> NIL (&amp;__NIL)</span></span><br><span class="line">__attribute__((constructor))</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init_NIL</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    NIL-&gt;key = <span class="number">0</span>;</span><br><span class="line">    NIL-&gt;color = <span class="number">1</span>;</span><br><span class="line">    NIL-&gt;lchild = NIL-&gt;rchild = NIL;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">getNewNode</span><span class="params">(<span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    Node *p = (Node *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(Node));</span><br><span class="line">    p-&gt;key = key;</span><br><span class="line">    p-&gt;color = <span class="number">0</span>;<span class="comment">//新插入的节点为红色</span></span><br><span class="line">    p-&gt;lchild = p-&gt;rchild = NIL;</span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">has_red_child</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> root-&gt;lchild-&gt;color == <span class="number">0</span> || root-&gt;rchild-&gt;color == <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">left_rotate</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;rchild;<span class="comment">//指向旋转以后的根节点地址</span></span><br><span class="line">    root-&gt;rchild = temp-&gt;lchild;</span><br><span class="line">    temp-&gt;lchild = root;</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">right_rotate</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;lchild;<span class="comment">//指向旋转以后的根节点地址</span></span><br><span class="line">    root-&gt;lchild = temp-&gt;rchild;</span><br><span class="line">    temp-&gt;rchild = root;</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">insert_maintain</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!has_red_child(root)) <span class="keyword">return</span> root;<span class="comment">//判断是否有红色子孩子</span></span><br><span class="line">    <span class="keyword">int</span> flag = <span class="number">0</span>;<span class="comment">//利用flag来判断是否存在双红冲突的情况</span></span><br><span class="line">    <span class="keyword">if</span> (root-&gt;lchild-&gt;color == <span class="number">0</span> &amp;&amp; root-&gt;rchild-&gt;color == <span class="number">0</span>) </span><br><span class="line">        <span class="keyword">goto</span> insert_end;</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;lchild-&gt;color == <span class="number">0</span> &amp;&amp; has_red_child(root-&gt;lchild)) flag = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;rchild-&gt;color == <span class="number">0</span> &amp;&amp; has_red_child(root-&gt;rchild)) flag = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span> (flag == <span class="number">0</span>) <span class="keyword">return</span> root;<span class="comment">//没有发生冲突, 直接return</span></span><br><span class="line">    <span class="keyword">if</span> (flag == <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="comment">//冲突发生在左子树中, 第一个字母是L</span></span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild-&gt;rchild-&gt;color == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="comment">//说明需要先进行小左旋</span></span><br><span class="line">            root-&gt;lchild = left_rotate(root-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">        root = right_rotate(root);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (root-&gt;rchild-&gt;lchild-&gt;color == <span class="number">0</span>) &#123;</span><br><span class="line">            root-&gt;rchild = right_rotate(root-&gt;rchild);</span><br><span class="line">        &#125;</span><br><span class="line">        root = left_rotate(root);</span><br><span class="line">    &#125;</span><br><span class="line">insert_end:</span><br><span class="line">    root-&gt;color = <span class="number">0</span>;</span><br><span class="line">    root-&gt;lchild-&gt;color = root-&gt;rchild-&gt;color = <span class="number">1</span>;<span class="comment">//红色上浮, 改成红黑黑</span></span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Node *__insert(Node *root, <span class="keyword">int</span> key) &#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> getNewNode(key);</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;key == key) <span class="keyword">return</span> root;</span><br><span class="line">    <span class="keyword">if</span> (key &lt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;lchild = __insert(root-&gt;lchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        root-&gt;rchild = __insert(root-&gt;rchild, key);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//return root;</span></span><br><span class="line">    <span class="keyword">return</span> insert_maintain(root);<span class="comment">//在插入节点的回溯过程中进行插入调整</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//封装一层</span></span><br><span class="line"><span class="function">Node *<span class="title">insert</span><span class="params">(Node *root, <span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    root = __insert(root, key);</span><br><span class="line">    root-&gt;color = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">clear</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> ;</span><br><span class="line">    clear(root-&gt;lchild);</span><br><span class="line">    clear(root-&gt;rchild);</span><br><span class="line">    clear(root);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">print</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;(%d| %d, %d, %d)\n&quot;</span>,</span><br><span class="line">          root-&gt;color, root-&gt;key,</span><br><span class="line">          root-&gt;lchild-&gt;key,</span><br><span class="line">          root-&gt;rchild-&gt;key);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">output</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> ;</span><br><span class="line">    print(root);</span><br><span class="line">    output(root-&gt;lchild);</span><br><span class="line">    output(root-&gt;rchild);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> op, val;</span><br><span class="line">    Node *root = NIL;</span><br><span class="line">    <span class="keyword">while</span> (~<span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>, &amp;op, &amp;val)) &#123;</span><br><span class="line">        <span class="keyword">switch</span> (op) &#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">1</span>: root = insert(root, val); <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        output(root);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;------------\n&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321120400656.png" alt="image-20210321120400656"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结 :"></a>总结 :</h3><ol>
+<li>插入调整, 发生在递归的回溯阶段</li>
+<li>插入调整代码中, 使用goto语句, 8行代码, 变为4行</li>
+<li>处理根节点一定是黑色, 通过代码封装, <em>insert -&gt; __insert</em></li>
+</ol>
+<h2 id="删除调整的前提"><a href="#删除调整的前提" class="headerlink" title="删除调整的前提"></a>删除调整的前提</h2><ol>
+<li>删除红色节点, 不会对红黑树的平衡产生影响</li>
+<li>度为1的黑色节点, 唯一子孩子, 一定是红色</li>
+<li>删除度为1的黑色节点, 不会产生删除调整</li>
+<li>删除度为0的黑色节点, 会产生一个双重黑的NIL节点</li>
+<li>删除调整, 就是为了干掉双重黑</li>
+<li>删除调整站在父节点往下看</li>
+</ol>
+<blockquote>
+<p>不用调整, 直接删除</p>
+</blockquote>
+<p>删除黑色节点才会导致删除调整</p>
+<h3 id="删除度为1的黑色节点"><a href="#删除度为1的黑色节点" class="headerlink" title="删除度为1的黑色节点"></a>删除度为1的黑色节点</h3><p>思考 : 黑色节点x的唯一子孩子一定是红色节点吗?</p>
+<p>是的, 因为节点x没有左孩子, 如果右孩子也是黑色节点, 那么就违反了每条子树黑色节点数量相同的原则</p>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321131006200.png" alt="image-20210321131006200" style="zoom:25%;" />
+
+<p>删除x节点后如何调整?</p>
+<blockquote>
+<p>将唯一子孩子的红色节点上移, 并且改成<code>黑色</code></p>
+</blockquote>
+<h3 id="删除度为2的节点"><a href="#删除度为2的节点" class="headerlink" title="删除度为2的节点"></a>删除度为2的节点</h3><blockquote>
+<p>红黑树本质上是二叉排序树, 转化为删除度为1或0的情况</p>
+</blockquote>
+<h3 id="删除度为0的黑色节点"><a href="#删除度为0的黑色节点" class="headerlink" title="删除度为0的黑色节点"></a>删除度为0的黑色节点</h3><h4 id="删除节点会发生什么"><a href="#删除节点会发生什么" class="headerlink" title="删除节点会发生什么?"></a>删除节点会发生什么?</h4><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321142750287.png" alt="image-20210321142750287" style="zoom:25%;" />
+
+<p>当把黑色节点x删除, 取而代之的是一个新的节点NIL’<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321143051395.png" alt="image-20210321143051395" style="zoom:25%;" /></p>
+<p>假如NIL节点有意义, 此时画出其他NIL节点<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321143201165.png" alt="image-20210321143201165" style="zoom:25%;" /></p>
+<p>此时发现不平衡了, 其他路径3个黑色节点, 所以新的NIL需要标记为<code>双重黑</code><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321143303198.png" alt="image-20210321143303198" style="zoom:25%;" /></p>
+<p>双黑节点NIL算一个节点, 但是计<code>两次</code>黑色</p>
+<p>删除调整就是为了解决<code>双黑</code>的情况</p>
+<h4 id="情况1-双重黑节点的兄弟是黑色-并且兄弟的两个子孩子也是黑色"><a href="#情况1-双重黑节点的兄弟是黑色-并且兄弟的两个子孩子也是黑色" class="headerlink" title="情况1:双重黑节点的兄弟是黑色, 并且兄弟的两个子孩子也是黑色"></a>情况1:双重黑节点的兄弟是黑色, 并且兄弟的两个子孩子也是黑色</h4><p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321143658153.png" alt="image-20210321143658153"></p>
+<p>站在<code>父节点</code>43发现了双黑节点95</p>
+<p>(95双黑有可能是56向上传递的结果)</p>
+<blockquote>
+<p>调整: 父节点加一重黑色, 父节点的两个子节点–双黑与兄弟节点分别减一重黑</p>
+<p>(双重黑向上传递)</p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321145157408.png" alt="image-20210321145157408"></p>
+</blockquote>
+<h4 id="情况2-RL-双黑节点的兄弟节点是黑色-但是兄弟节点下面的左节点是红色"><a href="#情况2-RL-双黑节点的兄弟节点是黑色-但是兄弟节点下面的左节点是红色" class="headerlink" title="情况2: RL 双黑节点的兄弟节点是黑色, 但是兄弟节点下面的左节点是红色"></a>情况2: RL 双黑节点的兄弟节点是黑色, 但是兄弟节点下面的左节点是红色</h4><p>如果85是红色, 则一定是<code>RR类型</code></p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321145638136.png" alt="image-20210321145638136"></p>
+<blockquote>
+<p>先小右旋, 对调新根与原根的颜色, 转成情况3, 在大左旋, 改色</p>
+<p>LR同理</p>
+</blockquote>
+<p>对于72进行<code>小右旋</code>, 变为RR类型</p>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322141037411.png" alt="image-20210322141037411" style="zoom:50%;" />
+
+<p>蓝框为颜色确定的节点, 73, 42节点颜色不确定, 因为也有可能没有</p>
+<p>旋转之前每条路径两个黑色节点, 所以旋转之后需要确保也是两个黑色节点</p>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322142611027.png" alt="image-20210322142611027" style="zoom:25%;" />
+
+<p>51改为黑色, 此时51-48这条子树两个黑色节点;</p>
+<p>64和85颜色确定, 所以72可以改为红色, 此时51-72-64(85)也变为两个黑色节点</p>
+<p>此时转变为情况3   RL - &gt;RR</p>
+<h4 id="情况3-RR-双黑节点的兄弟节点在右侧-并且兄弟节点的右子树为红色"><a href="#情况3-RR-双黑节点的兄弟节点在右侧-并且兄弟节点的右子树为红色" class="headerlink" title="情况3: RR 双黑节点的兄弟节点在右侧, 并且兄弟节点的右子树为红色"></a>情况3: RR 双黑节点的兄弟节点在右侧, 并且兄弟节点的右子树为红色</h4><p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321150126325.png" alt="image-20210321150126325"></p>
+<blockquote>
+<p>左旋, 新根改为原根的颜色, 将新根的两个子节点, 改为黑色</p>
+<p>LL同理</p>
+</blockquote>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321163012126.png" alt="image-20210321163012126" style="zoom:50%;" />
+
+<p>**分析 : **</p>
+<p>确保调整后局部黑色节点数量<code>保持不变</code></p>
+<p>对38节点进行左旋之后, 图中蓝框的节点为颜色确定的节点</p>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210321165304864.png" alt="image-20210321165304864" style="zoom: 33%;" />
+
+<p>38和48的颜色不确定, 假定38节点为红色如图, </p>
+<p>48号节点颜色不确定, 所以38号节点颜色一定改为黑色, </p>
+<p><del>此时51-38这条路径多了一个黑色节点, 所以51肯定改为红色.(但38节点也有可能是黑色, 改完之后少了一个黑节点)</del></p>
+<p>51节点的颜色一定改为<code>原根节点</code>的颜色(38节点)</p>
+<p>此时51-72这条路少了个黑色节点, 所以72节点改为黑色</p>
+<h4 id="情况4-双黑节点的兄弟节点是红色"><a href="#情况4-双黑节点的兄弟节点是红色" class="headerlink" title="情况4 : 双黑节点的兄弟节点是红色"></a>情况4 : 双黑节点的兄弟节点是红色</h4><blockquote>
+<p>尽量让双黑的红色兄弟节点成为根节点(左旋), 然后交换旋转后根节点和左孩子的颜色, 转化为情况123</p>
+</blockquote>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322144720739.png" alt="image-20210322144720739"></p>
+<p>旋转后, 左子树三个黑色节点, 右子树两个黑色节点, 进行颜色修改</p>
+<p>删除调整是站在父节点往下看, 所以调整要站在旋转后根节点的左孩子往下看</p>
+<p>旋转后, 双黑节点的兄弟节点一定是黑色, 转变为情况123</p>
+<h3 id="完整的代码演示"><a href="#完整的代码演示" class="headerlink" title="完整的代码演示"></a>完整的代码演示</h3><blockquote>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322170524618.png" alt="image-20210322170524618"></p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322184949710.png" alt="image-20210322184949710"></p>
+<p>这两行代码不等价, 因为root-&gt;lchild-&gt;rchild(例中的-5节点)有可能是NIL节点, 而某些情况下NIL节点的属性为双黑, NIL-&gt;color = 2.</p>
+<p>所以LR/RL类型判断的时候, 不能判断LL子树是否为黑色, LL子树有可能是NIL节点, 在某些特殊情况下, 读到的颜色可能是双重黑, 取而代之的判断方法是[LL子树不是红色]</p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*************************************************************************</span></span><br><span class="line"><span class="comment">	&gt; File Name: red_black_tree.cpp</span></span><br><span class="line"><span class="comment">	&gt; Author: Lizimu</span></span><br><span class="line"><span class="comment">	&gt; Mail: </span></span><br><span class="line"><span class="comment"> ************************************************************************/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> key;</span><br><span class="line">    <span class="keyword">int</span> color; <span class="comment">// 0 red, 1 black, 2 double black</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">lchild</span>, *<span class="title">rchild</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"></span><br><span class="line">Node __NIL;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> NIL (&amp;__NIL)</span></span><br><span class="line">__attribute__((constructor))</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init_NIL</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    NIL-&gt;key = <span class="number">0</span>;</span><br><span class="line">    NIL-&gt;color = <span class="number">1</span>;</span><br><span class="line">    NIL-&gt;lchild = NIL-&gt;rchild = NIL;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">getNewNode</span><span class="params">(<span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    Node *p = (Node *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(Node));</span><br><span class="line">    p-&gt;key = key;</span><br><span class="line">    p-&gt;color = <span class="number">0</span>;<span class="comment">//新插入的节点为红色</span></span><br><span class="line">    p-&gt;lchild = p-&gt;rchild = NIL;</span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">has_red_child</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> root-&gt;lchild-&gt;color == <span class="number">0</span> || root-&gt;rchild-&gt;color == <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">left_rotate</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;rchild;<span class="comment">//指向旋转以后的根节点地址</span></span><br><span class="line">    root-&gt;rchild = temp-&gt;lchild;</span><br><span class="line">    temp-&gt;lchild = root;</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">right_rotate</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;lchild;<span class="comment">//指向旋转以后的根节点地址</span></span><br><span class="line">    root-&gt;lchild = temp-&gt;rchild;</span><br><span class="line">    temp-&gt;rchild = root;</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">insert_maintain</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!has_red_child(root)) <span class="keyword">return</span> root;<span class="comment">//判断是否有红色子孩子</span></span><br><span class="line">    <span class="keyword">int</span> flag = <span class="number">0</span>;<span class="comment">//利用flag来判断是否存在双红冲突的情况</span></span><br><span class="line">    <span class="keyword">if</span> (root-&gt;lchild-&gt;color == <span class="number">0</span> &amp;&amp; root-&gt;rchild-&gt;color == <span class="number">0</span>) </span><br><span class="line">        <span class="keyword">goto</span> insert_end;</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;lchild-&gt;color == <span class="number">0</span> &amp;&amp; has_red_child(root-&gt;lchild)) flag = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;rchild-&gt;color == <span class="number">0</span> &amp;&amp; has_red_child(root-&gt;rchild)) flag = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span> (flag == <span class="number">0</span>) <span class="keyword">return</span> root;<span class="comment">//没有发生冲突, 直接return</span></span><br><span class="line">    <span class="keyword">if</span> (flag == <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="comment">//冲突发生在左子树中, 第一个字母是L</span></span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild-&gt;rchild-&gt;color == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="comment">//说明需要先进行小左旋</span></span><br><span class="line">            root-&gt;lchild = left_rotate(root-&gt;lchild);</span><br><span class="line">        &#125;</span><br><span class="line">        root = right_rotate(root);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (root-&gt;rchild-&gt;lchild-&gt;color == <span class="number">0</span>) &#123;</span><br><span class="line">            root-&gt;rchild = right_rotate(root-&gt;rchild);</span><br><span class="line">        &#125;</span><br><span class="line">        root = left_rotate(root);</span><br><span class="line">    &#125;</span><br><span class="line">insert_end:</span><br><span class="line">    root-&gt;color = <span class="number">0</span>;</span><br><span class="line">    root-&gt;lchild-&gt;color = root-&gt;rchild-&gt;color = <span class="number">1</span>;<span class="comment">//红色上浮, 改成红黑黑</span></span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Node *__insert(Node *root, <span class="keyword">int</span> key) &#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> getNewNode(key);</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;key == key) <span class="keyword">return</span> root;</span><br><span class="line">    <span class="keyword">if</span> (key &lt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;lchild = __insert(root-&gt;lchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        root-&gt;rchild = __insert(root-&gt;rchild, key);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//return root;</span></span><br><span class="line">    <span class="keyword">return</span> insert_maintain(root);<span class="comment">//在插入节点的回溯过程中进行插入调整</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//封装一层</span></span><br><span class="line"><span class="function">Node *<span class="title">insert</span><span class="params">(Node *root, <span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    root = __insert(root, key);</span><br><span class="line">    root-&gt;color = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">predecessor</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    Node *temp = root-&gt;lchild;</span><br><span class="line">    <span class="keyword">while</span> (temp-&gt;rchild != NIL) temp = temp-&gt;rchild;</span><br><span class="line">    <span class="keyword">return</span> temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">erase_maintain</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root-&gt;lchild-&gt;color != <span class="number">2</span> &amp;&amp; root-&gt;rchild-&gt;color != <span class="number">2</span>) <span class="keyword">return</span> root;<span class="comment">//表示都不是双重黑, 不用调整</span></span><br><span class="line">    <span class="comment">//找到双重黑节点, 先判断父节点下面有无红色节点, 如果有, 说明双黑节点的兄弟节点是红色</span></span><br><span class="line">    <span class="keyword">if</span> (has_red_child(root)) &#123;</span><br><span class="line">        <span class="keyword">int</span> flag = <span class="number">0</span>;<span class="comment">//利用flag递归向下处理, 记录旋转方向</span></span><br><span class="line">        root-&gt;color = <span class="number">0</span>;<span class="comment">//原根节点改为红色</span></span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild-&gt;color == <span class="number">0</span>) &#123;</span><br><span class="line">            root = right_rotate(root); flag = <span class="number">1</span>;<span class="comment">//flag = 1表示右旋</span></span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            root = left_rotate(root); flag = <span class="number">2</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        root-&gt;color = <span class="number">1</span>;<span class="comment">//新的根节点改为黑色</span></span><br><span class="line">        <span class="keyword">if</span> (flag == <span class="number">1</span>) root-&gt;rchild = erase_maintain(root-&gt;rchild);</span><br><span class="line">        <span class="keyword">else</span> root-&gt;lchild = erase_maintain(root-&gt;lchild);</span><br><span class="line">        <span class="keyword">return</span> root;<span class="comment">//处理完兄弟节点是红色的情况</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> ((root-&gt;lchild-&gt;color == <span class="number">2</span> &amp;&amp; !has_red_child(root-&gt;rchild)) ||</span><br><span class="line">        (root-&gt;rchild-&gt;color == <span class="number">2</span> &amp;&amp; !has_red_child(root-&gt;lchild))) &#123;</span><br><span class="line">            root-&gt;lchild-&gt;color -= <span class="number">1</span>;</span><br><span class="line">            root-&gt;rchild-&gt;color -= <span class="number">1</span>;</span><br><span class="line">            root-&gt;color += <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">return</span> root;<span class="comment">//处理情况1, 双黑节点的兄弟为黑, 并且两个孩子也都为黑</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//处理情况2/3, 双黑节点的兄弟为黑色, 并且有红色的子孩子</span></span><br><span class="line">    <span class="keyword">if</span> (root-&gt;lchild-&gt;color == <span class="number">2</span>) &#123;</span><br><span class="line">        root-&gt;lchild-&gt;color -= <span class="number">1</span>;   <span class="comment">//解决双黑, (顺序无讲究)</span></span><br><span class="line">        <span class="comment">//先判断是否需要进行小右旋, 即判断是否是RL情况</span></span><br><span class="line">        <span class="keyword">if</span> (root-&gt;rchild-&gt;rchild-&gt;color != <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="comment">//只能这样判断,因为root-&gt;rchild-&gt;rchild有可能是NIL, 某些情况下NIL是双黑NIL-&gt;color=2</span></span><br><span class="line">            <span class="comment">//即当root-&gt;rchild-&gt;rchild不为红色节点时, 肯定为RL情况,</span></span><br><span class="line">            <span class="comment">//</span></span><br><span class="line">            <span class="comment">//不能去判断root-&gt;rchild-&gt;lchild是否为红色来判断是否是RL, </span></span><br><span class="line">            <span class="comment">//因为如果root-&gt;rchild-&gt;rchild为红色, 那不管root-&gt;rchild-lchild是什么颜色,一定是RR情况</span></span><br><span class="line">            root-&gt;rchild-&gt;color = <span class="number">0</span>;</span><br><span class="line">            root-&gt;rchild = right_rotate(root-&gt;rchild);</span><br><span class="line">            root-&gt;rchild-&gt;color = <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        root = left_rotate(root);<span class="comment">//不管是RL还是RR, 一定会有一个大左旋</span></span><br><span class="line">        root-&gt;color = root-&gt;lchild-&gt;color;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        root-&gt;rchild-&gt;color -= <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild-&gt;lchild-&gt;color != <span class="number">0</span>) &#123;</span><br><span class="line">            root-&gt;lchild-&gt;color = <span class="number">0</span>;<span class="comment">//LR, 先进行小左旋</span></span><br><span class="line">            root-&gt;lchild = left_rotate(root-&gt;lchild);</span><br><span class="line">            root-&gt;lchild-&gt;color = <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        root = right_rotate(root);<span class="comment">//右侧双黑, 一定会大右旋</span></span><br><span class="line">        root-&gt;color = root-&gt;rchild-&gt;color;</span><br><span class="line">    &#125;</span><br><span class="line">    root-&gt;lchild-&gt;color = root-&gt;rchild-&gt;color = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Node *__erase(Node *root, <span class="keyword">int</span> key) &#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> NIL;</span><br><span class="line">    <span class="keyword">if</span> (key &lt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;lchild = __erase(root-&gt;lchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (key &gt; root-&gt;key) &#123;</span><br><span class="line">        root-&gt;rchild = __erase(root-&gt;rchild, key);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;<span class="comment">//正是要删除的节点</span></span><br><span class="line">        <span class="keyword">if</span> (root-&gt;lchild == NIL || root-&gt;rchild == NIL) &#123;</span><br><span class="line">            Node *temp = root-&gt;lchild != NIL ? root-&gt;lchild : root-&gt;rchild;<span class="comment">//找到唯一子孩子</span></span><br><span class="line">            temp-&gt;color += root-&gt;color;<span class="comment">//如果是红色0, 不影响</span></span><br><span class="line">            <span class="built_in">free</span>(root);</span><br><span class="line">            <span class="keyword">return</span> temp;<span class="comment">//删除度为1 / 0的情况</span></span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            Node *temp = predecessor(root);</span><br><span class="line">            root-&gt;key = temp-&gt;key;</span><br><span class="line">            root-&gt;lchild == __erase(root-&gt;lchild, temp-&gt;key);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> erase_maintain(root);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">Node *<span class="title">erase</span><span class="params">(Node *root, <span class="keyword">int</span> key)</span> </span>&#123;</span><br><span class="line">    root = __erase(root, key);</span><br><span class="line">    root-&gt;color = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">clear</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> ;</span><br><span class="line">    clear(root-&gt;lchild);</span><br><span class="line">    clear(root-&gt;rchild);</span><br><span class="line">    clear(root);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">print</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;(%d| %d, %d, %d)\n&quot;</span>,</span><br><span class="line">          root-&gt;color, root-&gt;key,</span><br><span class="line">          root-&gt;lchild-&gt;key,</span><br><span class="line">          root-&gt;rchild-&gt;key);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">output</span><span class="params">(Node *root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == NIL) <span class="keyword">return</span> ;</span><br><span class="line">    print(root);</span><br><span class="line">    output(root-&gt;lchild);</span><br><span class="line">    output(root-&gt;rchild);</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> op, val;</span><br><span class="line">    Node *root = NIL;</span><br><span class="line">    <span class="keyword">while</span> (~<span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>, &amp;op, &amp;val)) &#123;</span><br><span class="line">        <span class="keyword">switch</span> (op) &#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">1</span>: root = insert(root, val); <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">2</span>: root = erase(root, val); <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        output(root);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;------------\n&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322155744704.png" alt="image-20210322155744704" style="zoom:25%;" /><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322155801248.png" alt="image-20210322155801248" style="zoom:25%;" /><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322160055170.png" alt="image-20210322160055170" style="zoom:25%;" /></p>
+<p><strong>删除节点3,会发生什么?</strong></p>
+<p> NIL标记为双重黑</p>
+<p>站在节点2, 右子树双黑, 左子树黑色, 情况1</p>
+<p>NIL减一重黑, 节点1变为红色, 根节点2加一重黑, 变为双重黑, 又因为节点2为根节点, 最后会强制变为黑色</p>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322164030726.png" alt="image-20210322164030726" style="zoom:25%;" />
+
+<p><strong>插入-5, 此时再删除节点3, 会发生什么过程?</strong></p>
+<ul>
+<li>发生LL类型失衡<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210322164536317.png" alt="image-20210322164536317" style="zoom:25%;" />, 需要进行<code>大右旋</code>, 然后新根改为原根节点的颜色, 两个子孩子改为黑色</li>
+</ul>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210323210932883.png" alt="image-20210323210932883" style="zoom:50%;" />
+
+<p><strong>插入-4节点, 再删除2</strong></p>
+<p><img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210323220148938.png" alt="image-20210323220148938"></p>
+<img src="https://mkdimg.oss-cn-shanghai.aliyuncs.com/image-20210323220339190.png" alt="image-20210323220339190" style="zoom: 50%;" />]]></content>
       <categories>
         <category>数据结构</category>
       </categories>
